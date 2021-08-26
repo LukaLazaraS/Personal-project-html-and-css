@@ -1,0 +1,309 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* header syles */
+  header {
+    width: 105vw;
+    max-width: 105%;
+    padding-top: 0;
+    justify-content: center;
+    max-height: 120vh;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2,
+  header h3 {
+    font-size: 15px;
+  }
+
+  .button-container-in-header :first-child,
+  .button-container-in-header :last-child {
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .radio-figures {
+    width: 60px;
+  }
+
+  .radio-figures figure {
+    height: 10px;
+    width: 10px;
+  }
+
+  .figure-with-green-point figure {
+    transform: translate(45%, 50%);
+    height: 5px;
+    width: 5px;
+  }
+
+  /* nav styles */
+  nav {
+    width: 105vw;
+    max-width: 105%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #nav-a-container {
+    width: 600px;
+  }
+
+  #home-link {
+    margin-left: 0;
+  }
+
+  #contact-link {
+    margin-right: 0;
+  }
+
+  /* Introducing box styles */
+  #introducing-box {
+    width: 105vw;
+    max-width: 105%;
+    height: 700px;
+  }
+
+  #introducing-box ul {
+    width: 650px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  /* styles about company */
+  #about-company {
+    width: 105vw;
+    max-width: 105%;
+    height: 801px;
+    flex-direction: column;
+  }
+
+  #about-company img {
+    width: 400px;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+
+  #about-company div {
+    width: 400px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  }
+
+  /* styles capabilities */
+  #capabilities {
+    width: 105vw;
+    max-width: 105%;
+    height: 1200px;
+  }
+
+  .container-of-capabilities {
+    width: 450px;
+    margin-top: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* styles services */
+
+  #services {
+    width: 105vw;
+    max-width: 105%;
+    overflow-x: hidden;
+    height: 1000px;
+  }
+
+  #services-section li {
+    width: 52.5vw;
+    height: 50%;
+  }
+
+  #services-section {
+    margin-top: 47px;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  #services-section p {
+    width: 30vw;
+  }
+
+  /* Style works */
+
+  #works {
+    width: 700px;
+  }
+
+  #works ul button {
+    margin-left: 0px;
+  }
+
+  .work-text-2 {
+    margin-bottom: 10px;
+  }
+
+  .work-5,
+  .work-6,
+  .work-7,
+  .work-8 {
+    display: none;
+  }
+
+  .work-1 {
+    background-color: #a1b1bc;
+  }
+
+  .work-2 {
+    background-color: #ecf0f1;
+  }
+
+  .style-work {
+    width: 50%;
+  }
+
+  /* styles testimonials */
+  #testimonials {
+    width: 105vw;
+    max-width: 105%;
+  }
+
+  .p-with-whtie-back {
+    width: 700px;
+    height: 220px;
+  }
+
+  /* styles feature */
+  #feature {
+    width: 105vw;
+    max-width: 105%;
+  }
+
+  #idk-figura {
+    display: none;
+    width: 346px;
+  }
+
+  .feature-list:last-child {
+    margin-left: 20px;
+  }
+
+  .feature-list:first-child {
+    margin-right: 20px;
+  }
+
+  /* styles pracing */
+  #pricing-table {
+    width: 700px;
+  }
+
+  #psd-template {
+    width: 700px;
+    height: 250px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .first-col,
+  .second-col,
+  .third-col,
+  .fourth-col {
+    width: 25%;
+  }
+
+  #psd-template figure {
+    display: none;
+  }
+
+  #psd-template h6 {
+    margin-top: 20px;
+  }
+
+  #psd-template p {
+    width: 70%;
+  }
+
+  #psd-template button {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  /* styles somefeatures */
+  .somefeatures-container {
+    height: 100%;
+    margin: 0 0 0 100px;
+  }
+
+  .somefeatures-mini-cont-header {
+    height: 70px;
+  }
+
+  .somefeatures-flex-cont-in-cont {
+    margin-top: 54px;
+  }
+
+  #somefeatures img {
+    margin: 50px 0;
+  }
+
+  .margin-top-somefeatures {
+    margin-top: 150px;
+  }
+
+  /* styles blog */
+  .section-blog {
+    width: 90vw;
+    justify-content: center;
+  }
+
+  /* styles our-team */
+  #our-team {
+    width: 105vw;
+    max-width: 105%;
+    flex-wrap: wrap;
+  }
+
+  /* styles social-icons */
+  #social-icons {
+    width: 105vw;
+    max-width: 105%;
+    justify-content: center;
+  }
+
+  #social-icons i {
+    margin: 0 15px;
+  }
+
+  /* styles last-section */
+  #last-section {
+    width: 105vw;
+    max-width: 105%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us,
+  .featured-news,
+  .flicker-widget {
+    width: 60%;
+  }
+
+  /* styles footer */
+
+  footer {
+    width: 105vw;
+    max-width: 105%;
+    height: 110px;
+    flex-direction: column;
+  }
+
+  .copyright-container {
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+}
